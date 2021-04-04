@@ -1,0 +1,264 @@
+body{
+    background-color:  #e9e8e8;
+    font-family: 'Rajdhani', sans-serif;
+}
+.card{
+    background-color:  white; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width:500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+    margin-top: 5rem;
+    padding:.5rem;
+}
+.perfil{
+    background-image: url(https://i.imgur.com/vNa5Rar.png);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    padding-bottom: .5rem;
+    background-size: cover;
+    background-position-y: 80%;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+.perfil-imagem{
+    height: 88px;
+}
+.imagem{
+    border-radius: 100% ;
+    width:150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px#f5f5f0;
+    box-shadow: 0 2px 10px 2px #00000010;
+    transform: translateY(-50%);
+}
+.perfil-texto{
+    text-align: center;
+}
+.perfil-botoes{
+    display: flex;
+
+}
+.perfil-nome{
+    color: white;
+    font-size: 30px;
+    shadow: 0 2px 10px 2px #00000010;
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
+.perfil-sobre{ 
+    color:#e2e2e2;
+    font-size: 15px;
+    margin-block-start: auto;
+}
+
+.botao{
+    text-align: center;
+    color:#232120;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.inicio-botao:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #303030;
+    transform: scaleX(0);  
+    transition: 250ms;
+    text-decoration: none;
+    padding-top: 0.5rem;
+
+}
+.inicio-botao:hover:after {
+    transform: scaleX(1.2);
+}
+.sobre-botao:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #303030;  
+    transform: scaleX(0);  
+    transition: 250ms;
+    text-decoration: none;
+    padding-bottom: .5rem;
+
+}
+.sobre-botao:hover:after { 
+    transform: scaleX(1.2);
+}
+.titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: unset;
+}
+.dev{
+  color:white;
+  display:inline-block;
+  background-color: black;
+}
+sobre:hover h2{
+    transition-timing-function: ease-out;
+    font-size: 1.8rem;  
+    transition: 500ms;
+}
+.lista-nomes{
+    font-size: inherit;
+}
+.itens{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #232120;
+}
+
+.item-1{
+    background-image: url(https://image.flaticon.com/icons/png/512/126/126157.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-1:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+   
+}
+.item-2{
+    background-image: url(https://image.flaticon.com/icons/png/512/104/104910.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-2:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.item-3{
+    background-image: url(https://image.flaticon.com/icons/png/512/103/103353.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-3:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.item-4{
+    background-image: url(https://image.flaticon.com/icons/png/512/129/129393.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-4:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.item-5{
+    background-image: url(https://image.flaticon.com/icons/png/512/112/112954.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-5:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.item-6{
+    background-image: url(https://image.flaticon.com/icons/png/512/110/110124.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-6:hover{
+    background-size: 25px 25px;    
+    cursor: pointer;
+    transition: 500ms;
+}
+.item-7{
+    background-image: url(https://image.flaticon.com/icons/png/512/129/129645.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 0.5rem;
+}
+.item-7:hover{
+    background-size: 25px 25px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.lista-nomes {
+    display:inline-block;
+    margin: 0 5rem;
+    list-style-type:none;
+    font-size: 1.1rem;
+}
+.sobre{
+    display:flex;
+    align-items: center;
+    margin: 0 2rem;
+
+}
+.sobre-titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin: unset;
+    margin-right: 2rem;
+}
+.alura{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.sobre-texto {
+    text-align: justify;
+}
+.rodape {
+    background-color: #303030;
+    border-radius: 10px;
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+.contato-social{
+    display: flex;
+    padding: 4rem 4rem 1rem 4rem; 
+    justify-content: space-between;
+    list-style-type: none;
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+.rodape-media{
+    padding-top: 2rem;
+    padding-right: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    cursor: pointer;
+}
+
+.media-1{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwbom.ca%2FnewWP%2Fwp-content%2Fuploads%2F2016%2F11%2FWhite-Instagram-Logo.png&f=1&nofb=1);
+}
+.media-2{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Flinkedin-3-512.png&f=1&nofb=1);
+}
+.media-3{
+    box-sizing: 50%;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-11-xxl.png&f=1&nofb=1);
+}
+.page-logo {
+    border-top: solid white;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
