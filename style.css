@@ -210,6 +210,7 @@ sobre:hover h2{
     font-size: 3rem;
     text-align: center;
     margin: unset;
+    line-height: 1;
     margin-right: 2rem;
 }
 .alura{
